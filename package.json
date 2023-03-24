@@ -1,0 +1,25 @@
+{
+  "name": "alice-pizzaricca",
+  "version": "1.0.0",
+  "description": "Навык для Алисы, позволяет заказать пиццу с сайта pizzaricca.ru",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js",
+    "test": "mocha"
+  },
+  "author": "Yuukari",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "random": "^3.0.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.19"
+  }
+}
